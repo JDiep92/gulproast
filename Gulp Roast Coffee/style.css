@@ -1,0 +1,142 @@
+/* font stack */
+body {
+font-family: "Lato 400 Normal";
+font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: " Lato 400 Normal", sans-serif;
+font-weight: 700;
+}
+
+h1 {
+font-size: 3.0 rem;
+line-height: 1.2;
+margin-bottom: 1.5rem;
+}
+
+h2 {
+font-size: 3.0 rem;
+line-height: 1.2;
+margin-bottom: 1rem;
+}
+
+h3 {
+font-size: 3.0 rem;
+line-height: 1.2;
+margin-bottom: 1rem;
+}
+
+/* Paragraph styles */
+p {
+font-size: 3 rem;
+line-height: 1.5;
+margin-bottom: 1.5rem;
+}
+
+/* Link styles */
+a {
+color: #f5f5f5;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* color palette */
+:root {
+--bright-blue: #082B59;
+--navy-blue: #131D26;
+--coffee: #59331D;
+--white: #F2F2F2;
+}
+
+/* font stack */
+html {
+font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Lato 400 Normal', sans-serif;
+}
+
+/* links */
+a {
+color: var(--navy-blue);
+font-weight: bold;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:hover {
+color: var(--coffee);
+text-decoration: underline;
+}
+
+/* background colors */
+body {
+background-color: var(--navy-blue);
+}
+
+/* Font Awesome icons */
+.fa {
+font-size: 2em;
+color: var(--peach);
+}
+
+/* spacing */
+body {
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+
+/* border */
+button {
+border: 2px solid var(--bright-blue);
+padding: 10px 20px;
+}
+/* horizontal navigation bar */
+nav {
+display: flex;
+justify-content: space-between;
+background-color: var(--white);
+padding: px;
+}
+nav a {
+color: var(--coffee);
+margin: 0 10px;
+}
+
+nav a:hover {
+color: var(--coffee);
+}
+
+nav img {
+max-height: 50px;
+}
+
+/* layout */
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+max-width: 800px;
+padding: 20px;
+}
+
+.card {
+background-color: var(--bright-blue);
+box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+margin: 10px;
+padding: 20px;
+text-align: center;
+width: 80px;
+}
+.card img {
+max-width: 80%;
+margin-bottom: 10px;}
+margin-bottom: 10px;
